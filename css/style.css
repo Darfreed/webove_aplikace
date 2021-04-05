@@ -18,27 +18,56 @@
 
 /* Change background on mouse-over */
 .navbar a:hover {
-    background: #ddd;
+    background: #ffc107;
     color: black;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-family: 'Nunito', sans-serif;
 }
 
 /* Main content */
 header {
-    margin-top: 4rem; /* Add a top margin to avoid content overlay */
+    margin-top: 3rem; /* Add a top margin to avoid content overlay */
 }
 
 h1{
     text-transform: uppercase;
+    font-family: 'Nunito', sans-serif;
 }
 
 h2{
-    padding-top: 4.5rem;
+    padding-top: 4rem;
     padding-bottom: 2rem;
     text-transform: uppercase;
+    font-family: 'Nunito', sans-serif;
+}
+
+h3{
+    text-align: center;
 }
 
 .jumbotron{
     margin-bottom: 0;
+}
+
+.text div{
+    background: #ffc107;
+    padding: 1rem;
+    border-radius: 1rem !important;
+    margin-bottom: 1rem;
+}
+
+div.col-sm-6{
+    position: static !important;
+}
+
+.rizika .col-sm-6 p{
+    background: #ffc107;
+    padding: 1rem;
+    border-radius: 1rem !important;
+    margin-bottom: 1rem;
 }
 
 footer{
@@ -46,4 +75,19 @@ footer{
     text-align: center;
     padding: 1rem;
     margin-top: 4.5rem
+}
+
+ol p{
+    background: #ffc107;
+    padding: 1rem;
+    border-radius: 1rem !important;
+    margin-bottom: 1rem;
+}
+
+.faze li{
+    font-size: 1.75rem;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-top: 0;
 }
