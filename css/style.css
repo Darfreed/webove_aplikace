@@ -8,7 +8,6 @@
 
 /* Links inside the navbar */
 .navbar a {
-    float: center;
     display: block;
     color: #ffffff;
     padding: 14px 16px;
@@ -16,10 +15,25 @@
     text-align: center;
 }
 
+.odkaz{
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.odkaz:hover{
+    display: block;
+    color: #ffffff;
+    text-align: center;
+}
+
+
 /* Change background on mouse-over */
 .navbar a:hover {
     background: #ffc107;
     color: black;
+    border-radius: 1rem !important;
 }
 
 .navbar-brand {
@@ -56,7 +70,11 @@ h3{
     background: #ffc107;
     padding: 1rem;
     border-radius: 1rem !important;
-    margin-bottom: 1rem;
+    position: static !important;
+}
+
+img{
+    position: static !important;
 }
 
 div.col-sm-6{
@@ -90,4 +108,162 @@ ol p{
     font-weight: 500;
     line-height: 1.2;
     margin-top: 0;
+}
+
+.typy{
+    background: #ffc107;
+    padding: 1rem;
+    border-radius: 1rem !important;
+    margin-bottom: 1rem;
+}
+/* Lightbox */
+.row > .column {
+    text-align: center;
+    margin: 0;
+}
+
+.column{
+    position: static !important
+}
+
+table{
+    width: 100%;
+    border:rgb(0, 0, 0);
+}
+
+table a {
+    float: center;
+    display: block;
+    color:black;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 1rem !important;
+}
+
+table a:hover {
+    background: white;
+    color: black;
+    border-radius: 1rem !important;
+    
+    text-decoration: none;
+}
+
+th, td{
+    width: 33%;
+    text-align:center;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Create four equal columns that floats next to eachother */
+
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: black;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Hide the slides by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+top: 0;
+}
+
+/* Caption text */
+.caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white;
+}
+
+img.demo {
+    opacity: 0.6;
+}
+
+.active, .demo:hover {
+    opacity: 1;
+}
+
+img.hover-shadow {
+    transition: 0.3s;
+}
+
+.hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
